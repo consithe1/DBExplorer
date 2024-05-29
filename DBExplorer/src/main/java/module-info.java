@@ -11,6 +11,8 @@ module snps.lccn.dsn.dbexplorer {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires org.apache.logging.log4j;
+    requires java.sql;
+    requires com.opencsv;
 
     opens snps.lccn.dsn.dbexplorer to javafx.fxml;
     exports snps.lccn.dsn.dbexplorer;
